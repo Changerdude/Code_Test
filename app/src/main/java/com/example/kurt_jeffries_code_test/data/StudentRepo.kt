@@ -1,6 +1,8 @@
-package com.example.kurt_jeffries_code_test
+package com.example.kurt_jeffries_code_test.data
 
 import android.util.Log
+import com.example.kurt_jeffries_code_test.data.retrofit.Retrofit
+import com.example.kurt_jeffries_code_test.data.retrofit.Student
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers

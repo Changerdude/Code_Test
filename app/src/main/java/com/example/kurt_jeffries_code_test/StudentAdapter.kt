@@ -5,9 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.example.kurt_jeffries_code_test.data.retrofit.Student
 import com.example.kurt_jeffries_code_test.databinding.StudentListCardBinding
 
-class StudentAdapter:RecyclerView.Adapter<StudentAdapter.StudentViewHolder>() {
+class StudentAdapter():RecyclerView.Adapter<StudentAdapter.StudentViewHolder>() {
 
     inner class StudentViewHolder(val binding: StudentListCardBinding):RecyclerView.ViewHolder(binding.root)
 

@@ -1,4 +1,4 @@
-package com.example.kurt_jeffries_code_test
+package com.example.kurt_jeffries_code_test.data.retrofit
 
 data class Student(
     val marks: List<Mark>,

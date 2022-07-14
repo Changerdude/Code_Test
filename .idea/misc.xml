@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Kurt/Documents/Kurt_Jeffries_Code_Test/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Kurt/Documents/Kurt_Jeffries_Code_Test/app/src/main/res/layout/activity_student_detail.xml" value="0.22" />
+        <entry key="..\:/Users/Kurt/Documents/Kurt_Jeffries_Code_Test/app/src/main/res/layout/student_detail_card.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/Kurt/Documents/Kurt_Jeffries_Code_Test/app/src/main/res/layout/student_list_card.xml" value="0.33" />
       </map>
     </option>
