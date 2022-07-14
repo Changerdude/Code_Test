@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="144dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+    <TextView
+    android:id="@+id/tvNameLabel"
+    android:labelFor="@+id/tvName"
+    android:text="@string/label_name"
+    android:textSize="24sp"
+    android:paddingEnd="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"/>
+    <TextView
+        app:layout_constraintStart_toEndOf="@+id/tvNameLabel"
+        android:id="@+id/tvName"
+        android:text="Name Here"
+        android:textSize="24sp"
+        android:paddingEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"/>
+
+    <TextView
+        android:id="@+id/tvAgeLabel"
+        android:labelFor="@+id/tvAge"
+        android:text="@string/label_age"
+        android:textSize="24sp"
+        android:paddingEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:id="@+id/tvAge"
+        android:text="Age here"
+        android:textSize="24sp"
+        android:paddingEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/tvAgeLabel"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvRollLabel"
+        android:labelFor="@+id/tvRoll"
+        android:text="@string/label_roll"
+        android:textSize="24sp"
+        android:paddingEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvRoll"/>
+    <TextView
+        android:id="@+id/tvRoll"
+        android:text="Roll Here"
+        android:textSize="24sp"
+        android:paddingEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="72dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
